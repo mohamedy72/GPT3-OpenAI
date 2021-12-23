@@ -7,11 +7,28 @@
 
 body {
   background: var(--color-bg);
+  font-family: var(--font-family);
+  line-height: 1.5;
 }
 
 a {
   color: unset;
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input:focus-visible,
+button:focus-visible {
+  outline: none;
 }
 
 .gradient__bg {
@@ -70,6 +87,17 @@ a {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #ff4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  border-radius: 5px;
+  line-height: 1.5625rem;
+  cursor: pointer;
 }
 
 /* ----------------------------------------------

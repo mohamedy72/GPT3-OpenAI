@@ -1,8 +1,11 @@
 import React from "react";
+import "./header.css";
+import people from "../../assets/people.png";
+import ai from "../../assets/ai.png";
 
 function Header() {
   return (
-    <div className="gpt3__header section-padding" id="home">
+    <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
           Let's building something amazing with GPT-3 OpenAI
@@ -15,8 +18,18 @@ function Header() {
         </p>
         <div className="gpt3__header-content__input">
           <input type="email" placeholder="Your Email address" />
-          <button type="button">Get Started</button>
+          <button type="button" className="btn">
+            Get Started
+          </button>
         </div>
+
+        <div className="gpt3__header-content__people">
+          <img src={people} alt="People" />
+          <p>1,600 requested access a visit in 24 hours</p>
+        </div>
+      </div>
+      <div className="gpt3__header-img">
+        <img src={ai} alt="AI" />
       </div>
     </div>
   );

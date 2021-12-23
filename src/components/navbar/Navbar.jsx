@@ -39,7 +39,9 @@ function Navbar() {
       </div>
       <div className="gpt3__navbar-sign">
         <small>Sign in</small>
-        <button type="button">Sign up</button>
+        <button type="button" className="btn">
+          Sign up
+        </button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
@@ -61,7 +63,9 @@ function Navbar() {
               <Menu />
               <div className="gpt3__navbar-menu_container-links-sign">
                 <small>Sign in</small>
-                <button type="button">Sign up</button>
+                <button type="button" className="btn">
+                  Sign up
+                </button>
               </div>
             </div>
           </div>

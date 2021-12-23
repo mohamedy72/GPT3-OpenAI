@@ -36,26 +36,10 @@
 .gpt3__navbar small,
 .gpt3__navbar-menu_container p {
   color: #fff;
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 1.125rem;
-  line-height: 1.5625rem;
   text-transform: capitalize;
   margin: 0 1rem;
-  cursor: pointer;
-}
-
-.gpt3__navbar-sign button,
-.gpt3__navbar-menu_container button {
-  padding: 0.5rem 1rem;
-  color: #fff;
-  background: #ff4820;
-  font-family: var(--font-family);
-  font-weight: 500;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-  line-height: 1.5625rem;
   cursor: pointer;
 }
 

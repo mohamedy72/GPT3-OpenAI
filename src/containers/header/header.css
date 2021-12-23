@@ -1,0 +1,124 @@
+.gpt3__header {
+  display: flex;
+}
+
+.gpt3__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.gpt3__header-content h1 {
+  font-weight: 800;
+  font-size: 3.875rem;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+
+.gpt3__header-content p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: var(--color-text);
+  margin-top: 1.5rem;
+}
+.gpt3__header-content__input {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+}
+
+.gpt3__header-content__input input {
+  background: var(--color-input);
+  border: 2px solid var(--color-input);
+  padding: 0 1rem;
+  border-radius: 5px 0 0px 5px;
+  flex: 2;
+  min-height: 3.125rem;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.gpt3__header-content__input .btn {
+  border-radius: 0 5px 5px 0;
+}
+
+.gpt3__header-content__people {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.gpt3__header-content__people img {
+  width: 11.375rem;
+  height: 2.375rem;
+}
+.gpt3__header-content__people p {
+  color: #fff;
+  margin: 0;
+  margin-left: 1rem;
+  font-size: 0.75rem;
+}
+
+.gpt3__header-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt3__header {
+    flex-direction: column;
+  }
+
+  .gpt3__header-content {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 40.625rem) {
+  .gpt3__header h1 {
+    font-size: 3rem;
+    line-height: 1.3;
+  }
+
+  .gpt3__header p {
+    font-size: 1rem;
+  }
+
+  .gpt3__header-content__people {
+    flex-direction: column;
+  }
+  .gpt3__header-content__people p {
+    margin: 0;
+    text-align: center;
+  }
+
+  .gpt3__header-content__input input,
+  .gpt3__header-content__input .btn {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 30.625rem) {
+  .gpt3__header h1 {
+    font-size: 2.25rem;
+    line-height: 1.2;
+  }
+
+  .gpt3__header p {
+    font-size: 0.875rem;
+  }
+
+  .gpt3__header-content__input input,
+  .gpt3__header-content__input .btn {
+    font-size: 0.6rem;
+  }
+}
